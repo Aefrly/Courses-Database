@@ -17,7 +17,7 @@ const sqlite3 = require('sqlite3').verbose();
       description TEXT,
       semester TEXT
     )
-  `), () => {
+  `, () => {
     console.log('Courses table created');
-    };
+  });
 //};
