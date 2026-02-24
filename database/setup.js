@@ -17,4 +17,5 @@ db.run(`
   )
 `, () => {
   console.log('Courses table created');
+  db.close();
 });
